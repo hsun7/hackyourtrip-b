@@ -1,4 +1,5 @@
 discoverytenv
+configvar.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
