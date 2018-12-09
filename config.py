@@ -7,5 +7,5 @@ class Config(object):
     SECRET_KEY = secret_key
     SQLALCHEMY_DATABASE_URI = db_setting['uri']
     SQLALCHEMY_TRACK_MODIFICATIONS = db_setting['mod']
-
+    LOG_TO_STDOUT = os.environ.get('LOG_TO_STDOUT')
 
