@@ -30,5 +30,7 @@ def create_app(config_class=Config):
         app.logger.info('Microblog startup')
 
     return app
-
+from app.api import bp as api_bp
 from app import routes, models
+
+app.register_blueprint(api_bp, url_prefix='/api')
