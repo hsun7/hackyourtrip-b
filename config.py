@@ -1,5 +1,5 @@
 import os
-from configvar import secret_key, db_setting
+#from configvar import secret_key, db_setting
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
